@@ -19,5 +19,9 @@
 - 我的关注
 #### 移动端截图
 <img width="1169" alt="移动端素材整合" src="https://user-images.githubusercontent.com/22972255/130307227-c25e9d34-d16e-44ce-a441-dccce23aaad9.png">
-#### 功能演示视频
+### 功能演示视频
 [移动端演示视频](https://www.bilibili.com/video/BV15q4y1D7MC/)
+
+## 服务端
+### 服务端结构图
+<img width="752" alt="服务端结构图" src="https://user-images.githubusercontent.com/22972255/130317758-940790af-02d1-45e9-aa94-c1f66635d7df.png">
