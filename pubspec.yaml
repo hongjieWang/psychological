@@ -1,0 +1,158 @@
+name: standard_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # 网络库
+  dio: ^4.0.0
+  #轮播图
+  flutter_swiper: ^1.1.6
+  # 日期格式化
+  date_format: ^2.0.2
+  # 多端兼容组件
+  flutter_screenutil: ^5.0.0
+  # 评分组件
+  flutter_rating_bar: ^4.0.0
+  # 提示框组件
+  fluttertoast: ^8.0.3
+  # 数据持久化插件
+  shared_preferences: ^2.0.5
+  # getX插件
+  get: ^4.1.4
+  # 时间、性别、地区选择器
+  flutter_pickers: ^2.0.1
+  # web_socket
+  web_socket_channel: ^2.0.0
+  # protobuf消息通讯
+  protobuf: ^1.0.1
+  # 声网SDK
+  agora_rtc_engine: ^4.0.2
+  # 权限插件
+  permission_handler: ^7.1.0
+  # 获取设备信息插件
+  device_info: ^2.0.2
+  # 友盟
+  # umeng_common_sdk:
+  #   path: ./common/common_flutter_1.1.3/
+  umeng_common_sdk: ^1.1.3
+  # flutter_fai_umeng: ^0.0.2
+  # flutter_umplus: ^0.0.1
+  #  umeng_statistics: ^1.0.4
+  #  umeng_analytics_push: ^2.1.0
+  #  umeng_analytics_plugin: ^1.0.3
+  # 微信支付
+  fluwx: ^3.4.2
+  # 支付宝支付
+  tobias: ^2.1.0
+  # flutter_alipay: ^1.0.0
+  # android 版本更新
+  flutter_xupdate: ^2.0.0
+  # 头像剪切
+  image_crop: ^0.4.0
+  # 图片上传
+  image_picker: ^0.8.0+3
+  # markdown 插件
+  flutter_markdown: ^0.6.2
+  # url
+  url_launcher: ^6.0.9
+  # h5 框架
+  flutter_webview_plugin: ^0.4.0
+  # 极光推送
+  jpush_flutter:
+    git:
+      url: git://github.com/jpush/jpush-flutter-plugin.git
+      ref: master
+  # 图片保存插件
+  image_gallery_saver: ^1.6.9
+  # 视频中屏幕常亮组件
+  wakelock: ^0.5.3+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  cached_network_image: ^2.5.1
+  english_words: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/files/706在线心理咨询用户注册协议.md
+    - assets/files/隐私政策.md
+    - assets/files/第三方SDK协议.md
+    - assets/images/dd.png
+    - assets/images/gz.png
+    - assets/images/yhj.png
+    - assets/images/zigl.png
+    - assets/images/zjrz.png
+    - assets/images/home_active.png
+    - assets/images/fx.png
+    - assets/images/kf.png
+    - assets/images/fk.png
+    - assets/images/gd.png
+    - assets/images/sz.png
+    - assets/images/yhjbg.png
+    - assets/images/weixin.png
+    - assets/images/zhifubao.png
+    - assets/images/voice.png
+    - assets/images/video.png
+    - assets/images/pay_success.png
+    - assets/images/money.png
+    - assets/images/no_wifi.png
+    - assets/images/login_bg.png
+    - assets/images/icon_wechat.png
+    - assets/images/icon_copylink.png
+    - assets/images/icon_wechat_moments.png
+    - assets/images/logox3.png
+    - assets/images/wechar3x.png
+    - assets/images/qq3x.png
+    - assets/images/iphone3x.png
+    - assets/images/message3x.png
+    - assets/images/seash3x.png
+    - assets/images/c_icon3x.png
+    - assets/images/hd_icon3x.png
+    - assets/images/test_icon3x.png
+    - assets/images/seelp_icon3x.png
+    - assets/images/below3x.png
+    - assets/images/address3x.png
+    - assets/images/mine_bg3x.png
+    - assets/images/message3x_write.png
+    - assets/images/yuyin3x.png
+    - assets/images/shipin3x.png
+    - assets/images/time3x.png
+    - assets/images/time3x_h.png
+    - assets/images/not_order3x.png
+    - assets/images/certification3x.png
+    - assets/images/no_data2x.png
+    - assets/images/mine3x.png
+    - assets/images/consult3x.png
+    - assets/images/settlement3x.png
+    - assets/images/balance3x.png
+    - assets/images/loading.gif
+    - assets/images/pay_fail.png
+    - assets/images/go_login.png
